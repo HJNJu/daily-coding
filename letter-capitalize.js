@@ -11,3 +11,5 @@ function letterCapitalize(str) {
     str = arr.join(' ');
     return str;
   }
+
+  
