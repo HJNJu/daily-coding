@@ -4,7 +4,7 @@
 //   return fibonacci(n - 1) + fibonacci(n - 2);
 // };
 
-// dynamic with meoization: O(N)
+// dynamic with memoization: O(N)
 // 이미 해결한 문제의 정답을 따로 기록해두고, 다시 해결하지 않는 기법
 // fibo(10) = fibo(9) + fibo(8)
 //          = fibo(8) + fibo(7) + fibo(7) + fibo(6)
