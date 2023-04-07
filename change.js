@@ -11,7 +11,7 @@ function partTimeJob(k) {
       if (k > 0) {
         const sum = Math.floor(k / coins[i]);
         numCoins += sum;
-        k = k - (coins[i] * sum);
+        k = k % coins[i];
       }
     }
     return numCoins
